@@ -1,159 +1,109 @@
 @media only screen and (max-width: 1600px) {
-    .carousel_con_2 img{
-        margin-top: 50px;
-        margin-left: 150px;
+    .showcase_img:hover .showimg_overlay{
+        width: 95%;
     }
 }
-
-@media only screen and (max-width: 1199.99px) {
-    .carousel-item{
-        height: 85vh;
+@media only screen and (max-width: 1400px) {
+    .showcase_img:hover .showimg_overlay{
+        width: 94.5%;
     }
-    .carousel_con_1{
-        padding-top: 40px;
-    }
-    .carousel_con_2 img{
-        width: 50%;
-    }
-
 }
-
+@media only screen and (max-width: 1368px) {
+    .showcase_img:hover .showimg_overlay{
+        width: 94%;
+    }
+}
 @media only screen and (max-width: 991px) {
-    .carousel_con_1{
-        padding-top: 40px;
+    .feature_con h4{
+        font-size: 20px;
     }
-
-    .carousel_con_1 h5{
-        padding-right: 100px;
-    }
-    .carousel_con_1 p{
-        padding-right: 100px;
-    }
-
-    .carousel_con_2 img{
-        width: 60%;
-        margin-top: 50px;
-        margin-left: 70px;
-    }
-
-    .feature_title p{
-        padding: 0px 100px;
-    }
-    .contact_title p{
-        padding: 0px 50px;
-        font-size: 18px;
-    }
-
-    .contact_form{
-        padding: 0px 50px;
-    }
+    
 }
+
 
 @media only screen and (max-width: 767px) {
-    .carousel_con_1{
-        padding-top: 40px;
+    .nav-item{
+        text-align: center;
     }
 
-    .carousel_con_1 h1{
-        font-size: 26px;
+    .hero_heading{
+        font-size: 90px;
     }
-    .carousel_con_1 h5{
-        font-size: 18px;
-    }
-
-    .carousel_con_1 p{
-        font-size: 14px;
+    .hero_devider{
+       width: 400px;
     }
 
-    .carousel_con_1 h5{
-        padding-right: 20px;
-    }
-    .carousel_con_1 p{
-        padding-right: 20px;
-    }
-    .carousel_con_2 img{
-        width: 80%;
-        margin-top: 80px;
-        margin-left: 30px;
+    .hero_para{
+        font-size: 19px;
     }
 
-
-    .feature_title p{
-        padding: 0px 20px;
+    .hero_anchor{
+        width: 180px !important;
+        font-size: 18px !important;
     }
-    .contact_title p{
-        padding: 0px 20px;
+    .about_para{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .feature_con p{
+        padding: 0% 20% 0% 20%;
+    }
+    .showcase_con h3{
+        font-size: 35px;
+    }
+    .showcase_img:hover .showimg_overlay{
+        width: 91%;
+    }
+}
+@media only screen and (max-width: 571px){
+    .showcase_img:hover .showimg_overlay{
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .showcase_img:hover .showimg_overlay{
+        width: 95.8%;
+    }
+}
+@media only screen and (max-width: 450px){
+    .showcase_img:hover .showimg_overlay{
+        width: 94.8%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .showcase_img:hover .showimg_overlay{
+        width: 94%;
+    }
+}
+@media only screen and (max-width: 350px){
+    .showcase_img:hover .showimg_overlay{
+        width: 93%;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .hero_devider{
+        width: 250px;
+    }
+    .hero_heading{
+        font-size: 60px;
+        letter-spacing: 4px;
+    }
+    .about_heading{
+        font-size: 28px;
+    }
+    .about_para{
+        font-size: 16px;
+    }
+    .showcase_img:hover .showimg_overlay{
+        width: 92.5%;
+    }
+    .checkbox_con label{
         font-size: 16px;
     }
 
-    .contact_form{
-        padding: 0px 50px;
-    }
-    .download{
-        padding-left: 50%;
-    }
-
-}
-
-@media only screen and (max-width: 575px) {
-    .carousel-item{
-        height: 100vh;
-    }
-    .carousel_con_1{
-        padding-top: 10px;
-    }
-    .carousel_con_1 h1{
-        padding-bottom: 5px;
-    }
-    .carousel_con_1 h5{
-        padding: 0px 50px 0px 50px;
-    }
-    .carousel_con_1 p{
-        font-size: 14px;
-        line-height: 16px;
-        padding: 0px 80px 10px 80px;
-    }
-
-    .carousel_con_2 img{
-        width: 30%;
-        margin-top: 10px;
-        margin-left: 170px; 
+    ul{
+        padding-left: 0rem;
     }
 }
-
-
-
-@media only screen and (max-width: 320px) {
-    .carousel-item{
-        height: 105vh;
-    }
-    .carousel_con_1{
-        padding-top: 10px;
-    }
-    .carousel_con_1 h1{
-        padding-bottom: 5px;
-    }
-    .carousel_con_1 h5{
-        padding: 0px 30px 0px 30px;
-    }
-    .carousel_con_1 p{
-        
-        padding: 0px 20px 10px 20px;
-    }
-
-    .carousel_con_2 img{
-        width: 50%;
-        margin-top: 10px;
-        margin-left: 80px; 
-    }
-
-    .feature_title p{
-        padding: 0px 10px;
-    }
-
-    .contact_form{
-        padding: 0px 20px;
-    }
-}
-
-
